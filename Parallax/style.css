@@ -4,8 +4,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
+    font-family: 'Lora', serif;
+
 }
 body{
     min-height: 100vh;
@@ -94,7 +95,7 @@ position: absolute;
 color: #fff;
 white-space: nowrap;
 font-size: 7.5vw;
-z-index: 9;
+z-index: 4;
 
 }
 #btn{
@@ -114,13 +115,28 @@ z-index: 9;
     background: #1c0522;
 }
 .sec  h2{
-    font-size: 3.5em;
+    font-size: 4em;
     margin-bottom: 10px;
     color: #fff;
 
 }
 .sec  p{
-    font-size: 1.3em;
+    font-size: 1em;
     color: #fff;
+    word-spacing: 0.5px;
     
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-left: 440px;
+    width: 50%;
+    line-height: 2;     
+    margin-bottom: 10px;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
